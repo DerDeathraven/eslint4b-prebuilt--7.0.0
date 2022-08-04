@@ -1,0 +1,28 @@
+{
+  "name": "eslint4b-prebuilt-7.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "prepare": "rollup -c"
+  },
+  "dependencies": {
+    "eslint4b": "^7.32.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.4",
+    "@rollup/plugin-buble": "^0.20.0",
+    "eslint4b": "^7.32.0",
+    "rollup": "^1.27.5",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  }
+}

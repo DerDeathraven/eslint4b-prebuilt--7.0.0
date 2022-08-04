@@ -2,7 +2,8 @@
   "name": "eslint4b-prebuilt-7.0.0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/eslint4b.js",
+  "module": "dist/eslint4b.es.js",
   "author": "",
   "license": "ISC",
   "scripts": {
